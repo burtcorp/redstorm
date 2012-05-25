@@ -4,7 +4,7 @@
 
   <groupId>redstorm</groupId>
   <artifactId>redstorm</artifactId>
-  <version>0.4.0</version>
+  <version>0.4.2</version>
   <name>RedStorm JRuby on Storm</name>
 
   <properties>
@@ -33,7 +33,13 @@
     <dependency>
       <groupId>org.jruby</groupId>
       <artifactId>jruby-complete</artifactId>
-      <version>1.6.6</version>
+      <version>1.6.7</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.netflix.curator</groupId>
+        <artifactId>curator-x-discovery-server</artifactId>
+        <version>1.0.11</version>
     </dependency>
   </dependencies>
 
@@ -48,7 +54,7 @@
             <artifactItem>
               <groupId>org.jruby</groupId>
               <artifactId>jruby-complete</artifactId>
-              <version>1.6.6</version>
+              <version>1.6.7</version>
               <type>jar</type>
               <overWrite>false</overWrite>
             </artifactItem>
