@@ -4,7 +4,7 @@
 
   <groupId>redstorm</groupId>
   <artifactId>redstorm</artifactId>
-  <version>0.4.2</version>
+  <version>0.4.3</version>
   <name>RedStorm JRuby on Storm</name>
 
   <properties>
